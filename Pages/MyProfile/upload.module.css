@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-width: 100px;
+  width: 100px;
+  height: 140px;
+  min-height: 130px;
+  margin: 6px;
+  background-color: rgba(104, 91, 91, 0.1);
+  border: 1px solid rgb(233, 221, 221);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.47);
+  color: #fff;
+}
+
+.uploadSuccessIcon {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  color: green;
+}
+
+.deleting {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.57);
+  color: #fff;
+  font-size: 9px;
+  font-family: monospace;
+}
+
+.deleting div {
+  padding-bottom: 10px;
+}

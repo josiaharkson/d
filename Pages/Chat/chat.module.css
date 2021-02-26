@@ -1,0 +1,84 @@
+.chatRoomContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.room-name {
+  margin-top: 0;
+}
+
+.messages-container {
+  flex: 1;
+  min-height: 100px;
+  overflow: auto;
+  border-radius: 7px 7px 0 0;
+}
+
+.messages-list {
+  list-style-type: none;
+  padding: 0;
+  width: 325px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new-message-input-field {
+  max-width: 300px;
+  height: 40px;
+  margin: 5px;
+  font-size: 15px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  resize: none;
+}
+
+.message-item {
+  max-width: 55%;
+  margin: 8px;
+  padding: 5px 8px;
+  word-break: break-word;
+  border-radius: 15px;
+  color: white;
+}
+
+.my-message {
+  background-color: rgb(0, 132, 255);
+  margin-left: auto;
+  width: fit-content;
+}
+
+.received-message {
+  background-color: #3f4042;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.send-message-button {
+  font-size: 12px;
+  font-weight: 900;
+  color: white;
+  background: #31a24c;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+  border: none;
+  width: fit-content;
+  width: 180px;
+  border-radius: 20px;
+}
+
+.messages-container,
+.new-message-input-field,
+.send-message-button {
+  border-color: #9a9a9a;
+}
+.new-message-input-field {
+  width: 290px;
+}
+.chatMBa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}

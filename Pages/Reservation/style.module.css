@@ -1,0 +1,52 @@
+.noMargR {
+  margin-left: 40px !important;
+  margin-right: 10px !important;
+}
+.sCard {
+  height: 280px;
+  margin: 5px;
+  width: 170px;
+  border-radius: 6px !important;
+  background: linear-gradient(163.79deg, #736cc7 -16.48%, #ce499b 134.62%),
+    #ce499b;
+}
+@media (max-width: 768px) {
+  .SearchResult_card {
+    height: calc(100vh - 187px);
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(163.79deg, #736cc7 -16.48%, #ce499b 134.62%),
+      #ce499b;
+    padding: 5px 50px;
+  }
+}
+@media (max-width: 425px) {
+  .SearchResult_card {
+    height: calc(100vh - 187px);
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(163.79deg, #736cc7 -16.48%, #ce499b 134.62%),
+      #ce499b;
+    padding: 5px 50px;
+  }
+}
+@media (max-width: 375px) {
+  .SearchResult_card {
+    height: calc(100vh - 187px);
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(163.79deg, #736cc7 -16.48%, #ce499b 134.62%),
+      #ce499b;
+    padding: 5px 32px;
+  }
+}
+@media (max-width: 320px) {
+  .SearchResult_card {
+    height: calc(100vh - 187px);
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(163.79deg, #736cc7 -16.48%, #ce499b 134.62%),
+      #ce499b;
+    padding: 5px 25px;
+  }
+}

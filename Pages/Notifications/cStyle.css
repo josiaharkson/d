@@ -1,0 +1,408 @@
+@media (min-width: 200px) {
+  .nheadr {
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 13, 19, 58%),
+        rgba(255, 0, 150, 0.3)
+      ),
+      url(../../Assets/images/couple.jpg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* meanu */
+  .nbackDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+  }
+  .oIP {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 321px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .cback02 {
+    background-color: #736cc7;
+    width: 230px;
+    height: 29px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+  .cBT {
+    color: #ffe500;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .cbkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ce499b;
+  }
+
+  /* header Body */
+
+  /* New Message  */
+  .nNMT {
+    background-color: #736cc7;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .nUserImage {
+    height: 60px;
+    width: 60px;
+    border: white 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .cUserData {
+    padding-top: 10px;
+  }
+  .cSPu {
+    margin-top: 0px;
+  }
+  .cGP {
+    padding: 0px 5px;
+  }
+  .hrSp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .it1 {
+    margin-left: -34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .nUserN {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .nHN {
+    font-size: 10px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  .nHL {
+    font-size: 10px;
+    color: white;
+    margin-top: -10px;
+  }
+  .nMDT {
+    font-size: 10px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  .NewMessage {
+    color: #ffe500;
+    font-size: 12px;
+    background-color: #ff5454;
+    border-radius: 9px;
+    padding: 0px 10px;
+    width: 100px;
+    margin-right: -70px;
+    margin-top: -15px;
+    height: 27px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .nspaceR {
+    margin-left: 20px;
+  }
+  .nTimeN {
+    color: #ffe500;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  /* New Message Read */
+  .nrNMT {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+
+  .nrUserN {
+    color: #797676;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .nrHN {
+    font-size: 10px;
+    font-weight: 700;
+    color: #797676;
+  }
+  .nrHL {
+    font-size: 10px;
+    color: #797676;
+    margin-top: -10px;
+  }
+  .nrMDT {
+    font-size: 10px;
+    margin-top: -10px;
+    color: #797676;
+    font-weight: 800;
+  }
+  .rNewMessage {
+    color: #ffe500;
+    font-size: 12px;
+    background-color: #aaa8a8;
+    border-radius: 9px;
+    padding: 0px 10px;
+    width: 100px;
+    margin-right: -70px;
+    margin-top: -15px;
+    height: 27px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .nrTimeN {
+    color: #797676;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  /* Missed Date */
+  ._nmrNMT {
+    background-color: #736cc7;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  ._nmUserImage {
+    height: 60px;
+    width: 60px;
+    border: #ff5454 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+
+  ._nmUserN {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  ._nmrHN {
+    font-size: 10px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  ._nmrHL {
+    font-size: 10px;
+    color: white;
+    margin-top: -10px;
+  }
+  ._nmrMDT {
+    font-size: 10px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  .mMissed {
+    color: #ff5454;
+    font-size: 12px;
+    background-color: #474747;
+    border-radius: 9px;
+    padding: 0px 10px;
+    width: 100px;
+    margin-right: -70px;
+    margin-top: -15px;
+    height: 27px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  ._nmrTimeN {
+    color: #ffe500;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  /* Missed Date READ*/
+  ._rnmrNMT {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+
+  ._rnmUserN {
+    color: #797676;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  ._rnmrHN {
+    font-size: 10px;
+    font-weight: 700;
+    color: #797676;
+  }
+  ._rnmrHL {
+    font-size: 10px;
+    color: #797676;
+    margin-top: -10px;
+  }
+  ._rnmrMDT {
+    font-size: 10px;
+    margin-top: -10px;
+    color: #797676;
+    font-weight: 800;
+  }
+  ._rmMissed {
+    color: #ff5454;
+    font-size: 12px;
+    background-color: #aaa8a8;
+    border-radius: 9px;
+    padding: 0px 10px;
+    width: 100px;
+    margin-right: -70px;
+    margin-top: -15px;
+    height: 27px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  ._rnmrTimeN {
+    color: #797676;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  /* Likes You */
+  ._lnmrNMT {
+    background-color: #736cc7;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  ._lnmUserImage {
+    height: 60px;
+    width: 60px;
+    border: #c1da69 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+
+  ._lnmUserN {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  ._lnmrHN {
+    font-size: 10px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  ._lnmrHL {
+    font-size: 10px;
+    color: white;
+    margin-top: -10px;
+  }
+  ._lnmrMDT {
+    font-size: 10px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  ._Likes {
+    color: #474747;
+    font-size: 12px;
+    background-color: #c1da69;
+    border-radius: 9px;
+    padding: 0px 10px;
+    width: 100px;
+    margin-right: -70px;
+    margin-top: -15px;
+    height: 27px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  ._nmrTimeN {
+    color: #ffe500;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  /* Likes You READ*/
+  ._rnmrNMT {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+
+  ._rnmUserN {
+    color: #797676;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  ._rnmrHN {
+    font-size: 10px;
+    font-weight: 700;
+    color: #797676;
+  }
+  ._rnmrHL {
+    font-size: 10px;
+    color: #797676;
+    margin-top: -10px;
+  }
+  ._rnmrMDT {
+    font-size: 10px;
+    margin-top: -10px;
+    color: #797676;
+    font-weight: 800;
+  }
+  ._rmMissed {
+    color: #242323;
+    font-size: 12px;
+    background-color: #aaa8a8;
+    border-radius: 9px;
+    padding: 0px 10px;
+    width: 100px;
+    margin-right: -70px;
+    margin-top: -15px;
+    height: 27px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  ._rnmrTimeN {
+    color: #797676;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}

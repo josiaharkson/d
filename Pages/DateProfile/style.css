@@ -1,0 +1,149 @@
+.profileHead {
+  width: 100%;
+  border: 2px solid #ffee54;
+  border-radius: 55px !important;
+  /* height: 350px; */
+  background-image: url("../../Assets//images/searchimg.png");
+  background-size: cover;
+  border-radius: 55px 55px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.datePCard {
+  background: linear-gradient(163.79deg, #736cc7 -16.48%, #ce499b 134.62%),
+    linear-gradient(0deg, #ce499b, #ce499b);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.datePSearchParams {
+  width: 35%;
+  margin: 3% auto;
+  border: 1px solid #ffee54;
+  border-radius: 55px !important;
+}
+.dateliked {
+  background-color: #ffee54;
+  width: 13%;
+  text-align: center;
+  border-radius: 50%px;
+  margin-left: 410px;
+  margin-top: 25px;
+}
+.pdCT {
+  color: #ffee54;
+  font-size: 10px;
+  margin-top: -13px;
+}
+.dateCounter {
+  color: #ffee54;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.301);
+  border: 1px solid #ffee54;
+  border-radius: 57px;
+  width: 80px;
+  height: 80px;
+  margin-left: 430px;
+}
+.datePC {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 26px;
+}
+.datePCT {
+  font-size: 9px;
+  text-align: center;
+  margin-top: -12px;
+}
+
+.datePVerified {
+  width: 70px;
+}
+.datePDate {
+  background-color: #ffee54;
+  border-radius: 50px;
+  text-align: center;
+  width: 40%;
+  margin-left: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.datePDateTex {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.datePDataCard {
+  margin-top: 200px;
+}
+.datePBox {
+  margin-left: -340px;
+}
+.datePName {
+  color: white;
+  font-size: 30px;
+}
+.datePProfession {
+  color: white;
+  font-size: 15px;
+  margin-top: -14px;
+}
+.datePLocation {
+  color: white;
+  font-size: 15px;
+  margin-top: -8px;
+}
+
+.datePMleft {
+  margin-top: 50px;
+  margin-left: 100px !important;
+}
+.datePLName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffee54;
+}
+.datePLL {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  /* margin-left: -140px; */
+}
+
+.datePLA {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.datePDI {
+  width: 60%;
+  margin-left: 100px;
+}
+.datePLD {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffee54;
+}
+.datePLT {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: -10px;
+}
+.datePNav {
+  background: #ffee54;
+  border-radius: 50px;
+  text-align: center;
+  width: 40%;
+  margin-left: 150px;
+  margin-top: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.datePLoc {
+  background: #736cc7;
+  color: #ffee54;
+  border-radius: 50px;
+  text-align: center;
+  width: 40%;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+  .lSP {
+    width: 200px;
+    margin-bottom: -10px !important;
+    font-size: 10px;
+  }
+  .stx {
+    font-size: 13px;
+  }
+}
+@media (max-width: 425px) {
+  .lSP {
+    width: 300px;
+    margin-bottom: -10px !important;
+  }
+}
+@media (max-width: 375px) {
+  .lSP {
+    width: 300px;
+    margin-bottom: -10px !important;
+  }
+}
+@media (max-width: 320px) {
+  .lSP {
+    width: 300px;
+    margin-bottom: -10px !important;
+  }
+}
+.lSPT {
+  font-size: 15px;
+}
+.lSB {
+  font-size: 15px;
+  border-radius: 25px;
+  width: 180px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  text-align: center;
+  background-color: #ffee54;
+  padding: 10px;
+  margin-top: 30px;
+}
+.mpTop {
+  height: 90px;
+  background-color: #8960be;
+  box-shadow: -1px 3px 13px #000000c4;
+}
+.cbackDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.bk {
+  width: 40px;
+  margin-left: -10px;
+  margin-top: -7px;
+}
+.cback02 {
+  background-color: #ffe500;
+  width: 230px;
+  height: 29px;
+  border-radius: 12px;
+  box-shadow: -1px 3px 13px #0000005b;
+}
+.cBT {
+  color: #ce499b;
+  font-weight: 500;
+  padding-top: 0px;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+.headr {
+  background-color: #8960be;
+  padding-bottom: 30px;
+}
+.sCard {
+  height: 280px;
+  margin: 5px;
+  width: 170px;
+  border-radius: 6px !important;
+}
+.mpPBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

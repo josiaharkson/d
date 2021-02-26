@@ -1,0 +1,682 @@
+.mpIm {
+  margin: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 180px;
+  background-color: rgb(243, 237, 237);
+  border: #8960be 2px solid;
+}
+.mpBody {
+  width: 100%;
+}
+.mpPBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.backDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mpinfoBox {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mpTop {
+  height: 90px;
+  background-color: #8960be;
+  box-shadow: -1px 3px 13px #000000c4;
+}
+.back {
+  background-color: #8960be;
+  border: 3px solid #ffe500 !important;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: -1px 3px 13px #0000005b;
+}
+.topSpace {
+  padding-top: 15px;
+}
+.bkText {
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffe500;
+}
+.ina {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.mpIT {
+  width: 165px;
+  margin-bottom: 5px;
+}
+
+.mpHPl {
+  padding: 0px 50px;
+  width: 440px;
+}
+
+.mpHP {
+  padding: 0px 40px;
+  width: 200px;
+}
+.mpPInput {
+  font-size: 12px !important;
+  width: 150px !important;
+}
+.mpPInput2 {
+  font-size: 12px !important;
+  width: 320px !important;
+}
+.mpPSP {
+  margin-left: 20px !important;
+}
+
+.mpPT {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: -200px;
+  margin-bottom: 10px;
+}
+.dSpace {
+  padding: 10px !important;
+  border: rgba(255, 0, 0, 0) solid;
+}
+.mpPsBarT {
+  margin-left: 10px;
+  margin-top: -20px;
+  color: #ffe500;
+  width: 200px;
+}
+
+.imageSliderWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 1440px) {
+  .headr {
+    height: 250px;
+    background-color: #736cc7;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  /* meanu */
+  .hrSp {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .cbackDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .cback02 {
+    background-color: #ffe500;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+  .cBT {
+    color: #ce499b;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .cbkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ce499b;
+  }
+
+  /* header Body */
+  .cUserImage {
+    height: 100px;
+    width: 100px;
+    border: white 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .cUserData {
+    padding-top: 10px;
+  }
+  .cSPu {
+    margin-top: 20px;
+  }
+  .cGP {
+    padding: 20px;
+  }
+  .hrSp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .cUserN {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .cHN {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  .cHL {
+    font-size: 10xp;
+    color: white;
+    margin-top: -10px;
+  }
+  .cMDT {
+    font-size: 25px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  .cChatIn {
+    width: 280px;
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headr {
+    height: 250px;
+    background-color: #736cc7;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-bottom: 20px;
+  }
+  /* meanu */
+  .hrSp {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .cbackDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .cback02 {
+    background-color: #ffe500;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+  .cBT {
+    color: #ce499b;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .cbkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ce499b;
+  }
+
+  /* header Body */
+  .cUserImage {
+    height: 100px;
+    width: 100px;
+    border: white 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .cUserData {
+    padding-top: 10px;
+  }
+  .cSPu {
+    margin-top: 20px;
+  }
+  .cGP {
+    padding: 20px;
+  }
+  .hrSp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .cUserN {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .cHN {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  .cHL {
+    font-size: 10xp;
+    color: white;
+    margin-top: -10px;
+  }
+  .cMDT {
+    font-size: 25px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  .cChatIn {
+    width: 280px;
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .hrSp {
+    margin-top: 20px;
+    border: #ffa8de21 1px solid;
+  }
+  .headr {
+    height: 270px;
+    background-color: #736cc7;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-bottom: 20px;
+  }
+  /* meanu */
+  .cbackDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .cback02 {
+    background-color: #ffe500;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+  .cBT {
+    color: #ce499b;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .cbkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ce499b;
+  }
+
+  /* header Body */
+  .cUserImage {
+    height: 100px;
+    width: 100px;
+    border: white 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .cUserData {
+    padding-top: 10px;
+  }
+  .cSPu {
+    margin-top: 20px;
+  }
+  .cGP {
+    padding: 20px;
+  }
+
+  .cUserN {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .cHN {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  .cHL {
+    font-size: 10xp;
+    color: white;
+    margin-top: -10px;
+  }
+  .cMDT {
+    font-size: 25px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  .cChatIn {
+    width: 280px;
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 425px) {
+  .hrSp {
+    margin-top: 20px;
+    border: #ffa8de21 1px solid;
+  }
+  .headr {
+    height: 250px;
+    background-color: #736cc7;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  /* meanu */
+  .cbackDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .cback02 {
+    background-color: #ffe500;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+  .cBT {
+    color: #ce499b;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .cbkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ce499b;
+  }
+
+  /* header Body */
+  .cUserImage {
+    height: 100px;
+    width: 100px;
+    border: white 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .cUserData {
+    padding-top: 10px;
+  }
+  .cSPu {
+    margin-top: 20px;
+  }
+  .cGP {
+    padding: 20px;
+  }
+
+  .cUserN {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .cHN {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  .cHL {
+    font-size: 10xp;
+    color: white;
+    margin-top: -10px;
+  }
+  .cMDT {
+    font-size: 25px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  .cChatIn {
+    width: 280px;
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .hrSp {
+    margin-top: 20px;
+    border: #ffa8de21 1px solid;
+  }
+  .headr {
+    height: 250px;
+    background-color: #736cc7;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  /* meanu */
+  .cbackDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .cback02 {
+    background-color: #ffe500;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+  .cBT {
+    color: #ce499b;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .cbkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ce499b;
+  }
+
+  /* header Body */
+  .cUserImage {
+    height: 100px;
+    width: 100px;
+    border: white 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .cUserData {
+    padding-top: 10px;
+  }
+  .cSPu {
+    margin-top: 20px;
+  }
+  .cGP {
+    padding: 20px;
+  }
+
+  .cUserN {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .cHN {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  .cHL {
+    font-size: 10xp;
+    color: white;
+    margin-top: -10px;
+  }
+  .cMDT {
+    font-size: 25px;
+    margin-top: -10px;
+    color: white;
+    font-weight: 800;
+  }
+  .cChatIn {
+    width: 280px;
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .hrSp {
+    margin-top: 20px;
+    border: #ffa8de21 1px solid;
+  }
+  .headr {
+    height: 250px;
+    background-color: #736cc7;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  /* meanu */
+  .cbackDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .cback02 {
+    background-color: #ffe500;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+  .cBT {
+    color: #ce499b;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .cbkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ce499b;
+  }
+
+  /* header Body */
+  .cUserImage {
+    height: 100px;
+    width: 100px;
+    border: white 2px solid;
+    border-radius: 50%;
+    background: url(../../Assets/images/couple.jpg);
+    background-size: cover;
+    box-shadow: -1px 3px 13px #0000005b;
+  }
+  .cUserData {
+    padding-top: 10px;
+  }
+  .cSPu {
+    margin-top: 20px;
+  }
+  .cGP {
+    padding: 20px;
+  }
+  .hrSp {
+    margin-top: 20px;
+    border: #ffa8de21 1px solid;
+  }
+  .cUserN {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .cHN {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffe500;
+  }
+  .cHL {
+    font-size: 10px;
+    color: white;
+    margin-top: -10px;
+  }
+  .cMDT {
+    font-size: 25px;
+    margin-top: -5px;
+    color: white;
+    font-weight: 800;
+  }
+  .cChatIn {
+    width: 280px;
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+.seenDate {
+  background-color: #ce499b;
+  width: 150px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: aliceblue;
+  padding: 5px;
+  box-shadow: -1px 3px 13px #0000005b;
+}

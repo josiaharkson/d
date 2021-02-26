@@ -1,0 +1,831 @@
+/*  larg Screens */
+@media (min-width: 768px) {
+  /* Menu Area */
+  .mpTop {
+    padding-top: 10px;
+    height: 90px;
+    background-color: #8960be;
+    box-shadow: -1px 3px 13px #000000c4;
+  }
+
+  .backDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 180px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .back02 {
+    background-color: #736cc7;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+
+  .bkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffe500;
+  }
+  .ssBarT {
+    color: #ffe500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .sHRS {
+    margin: 0px;
+  }
+  .headerImage {
+    height: 240px;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 13, 19, 58%),
+        rgba(255, 0, 150, 0.3)
+      ),
+      url(../../Assets/images/couple.jpg);
+    background-size: cover;
+  }
+  /* Body */
+
+  .ssPT {
+    color: #ffe500;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: -70px;
+  }
+  ._sST {
+    padding-top: 20px;
+  }
+  ._sSB {
+    padding: 100px;
+  }
+
+  .mpPInputH {
+    font-size: 12px;
+    margin-bottom: -15px;
+    align-items: center;
+  }
+  .sFTitle {
+    color: #fafaf9;
+    font-size: 12px;
+  }
+  .sDesc01 {
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    margin-top: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .age02 {
+    margin: 10px !important;
+  }
+  .agerange {
+    width: 125px !important;
+    font-size: 12px !important;
+  }
+
+  .mpPInputW {
+    font-size: 15px;
+    width: 410px;
+  }
+  .ssPInputSP {
+    font-size: 12px !important;
+    width: 270px !important;
+  }
+  .srange {
+    width: 200px;
+    padding: 0px 40px;
+    margin-left: -100px;
+  }
+
+  .MuiSlider-rail {
+    width: 100%;
+    color: #ffe500;
+    height: 8px !important;
+    display: block;
+    opacity: 1 !important;
+    position: absolute;
+    margin-top: -1px;
+    border-radius: 10px !important;
+    background-color: currentColor;
+    border: #ffe500 1px solid;
+  }
+  .MuiSlider-track {
+    height: 8px !important;
+    display: block;
+    color: #b752a6;
+    position: absolute;
+    border-radius: 1px;
+    background-color: currentColor;
+  }
+  .PrivateValueLabel-thumb-2.PrivateValueLabel-open-3
+    .PrivateValueLabel-offset-4 {
+    transform: scale(1) translateY(35px) !important;
+    margin-left: 7px;
+  }
+  .sTitle {
+    text-align: center;
+    margin-bottom: -5px !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    font-weight: 50;
+    color: #ffe500;
+  }
+  .PrivateValueLabel-label-6 {
+    color: #ffe500 !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .MuiSlider-thumb {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 5px;
+    border: #ffe500 1px solid;
+  }
+  .PrivateValueLabel-circle-5 {
+    border-radius: 50% 50% 50% 50% !important;
+    font-size: 15px;
+    border: #ffe6001c 1px solid;
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: 20px;
+    background-color: rgba(255, 208, 0, 0.11) !important;
+  }
+}
+
+/*  Tablets Screens */
+@media (max-width: 768px) {
+  /* Menu Area */
+  .mpTop {
+    padding-top: 10px;
+    height: 90px;
+    background-color: #8960be;
+    box-shadow: -1px 3px 13px #000000c4;
+  }
+
+  .backDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 180px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .back02 {
+    background-color: #736cc7;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+
+  .bkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffe500;
+  }
+  .ssBarT {
+    color: #ffe500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .sHRS {
+    margin: 0px;
+  }
+  .headerImage {
+    height: 240px;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 13, 19, 58%),
+        rgba(255, 0, 150, 0.3)
+      ),
+      url(../../Assets/images/couple.jpg);
+    background-size: cover;
+  }
+  /* Body */
+
+  .ssPT {
+    color: #ffe500;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: -70px;
+  }
+  ._sST {
+    padding-top: 20px;
+  }
+  ._sSB {
+    padding: 47px;
+  }
+
+  .mpPInputH {
+    font-size: 12px;
+    margin-bottom: -15px;
+    align-items: center;
+  }
+  .sFTitle {
+    color: #fafaf9;
+    font-size: 12px;
+  }
+  .sDesc01 {
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    margin-top: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .age02 {
+    margin: 10px !important;
+  }
+  .agerange {
+    width: 125px !important;
+    font-size: 12px !important;
+  }
+
+  .mpPInputW {
+    font-size: 15px;
+    width: 410px;
+  }
+  .ssPInputSP {
+    font-size: 12px !important;
+    width: 270px !important;
+  }
+  .srange {
+    width: 200px;
+    padding: 0px 40px;
+    margin-left: -100px;
+  }
+
+  .MuiSlider-rail {
+    width: 100%;
+    color: #ffe500;
+    height: 8px !important;
+    display: block;
+    opacity: 1 !important;
+    position: absolute;
+    margin-top: -1px;
+    border-radius: 10px !important;
+    background-color: currentColor;
+    border: #ffe500 1px solid;
+  }
+  .MuiSlider-track {
+    height: 8px !important;
+    display: block;
+    color: #b752a6;
+    position: absolute;
+    border-radius: 1px;
+    background-color: currentColor;
+  }
+  .PrivateValueLabel-thumb-2.PrivateValueLabel-open-3
+    .PrivateValueLabel-offset-4 {
+    transform: scale(1) translateY(35px) !important;
+    margin-left: 7px;
+  }
+  .sTitle {
+    text-align: center;
+    margin-bottom: -5px !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    font-weight: 50;
+    color: #ffe500;
+  }
+  .PrivateValueLabel-label-6 {
+    color: #ffe500 !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .MuiSlider-thumb {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 5px;
+    border: #ffe500 1px solid;
+  }
+  .PrivateValueLabel-circle-5 {
+    border-radius: 50% 50% 50% 50% !important;
+    font-size: 15px;
+    border: #ffe6001c 1px solid;
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: 20px;
+    background-color: rgba(255, 208, 0, 0.11) !important;
+  }
+}
+
+/*  Mobile Screens */
+@media (max-width: 425px) {
+  /* Menu Area */
+  .mpTop {
+    padding-top: 10px;
+    height: 90px;
+    background-color: #8960be;
+    box-shadow: -1px 3px 13px #000000c4;
+  }
+
+  .backDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 125px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .sHRS {
+    margin: 30px;
+  }
+  .back02 {
+    background-color: #736cc7;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+
+  .bkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffe500;
+  }
+  .ssBarT {
+    color: #ffe500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .headerImage {
+    height: 190px;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 13, 19, 58%),
+        rgba(255, 0, 150, 0.3)
+      ),
+      url(../../Assets/images/couple.jpg);
+    background-size: cover;
+  }
+  /* Body */
+
+  .ssPT {
+    color: #ffe500;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: -70px;
+  }
+  ._sST {
+    padding-top: 20px;
+  }
+  ._sSB {
+    padding: 52px;
+  }
+
+  .mpPInputH {
+    font-size: 12px;
+    margin-bottom: -15px;
+    align-items: center;
+  }
+  .sFTitle {
+    color: #fafaf9;
+    font-size: 12px;
+  }
+  .sDesc01 {
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    margin-top: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .age02 {
+    margin: 10px !important;
+  }
+  .agerange {
+    width: 125px !important;
+    font-size: 12px !important;
+  }
+
+  .mpPInputW {
+    font-size: 15px;
+    width: 410px;
+  }
+  .ssPInputSP {
+    font-size: 12px !important;
+    width: 270px !important;
+  }
+  .srange {
+    width: 200px;
+    padding: 0px 40px;
+    margin-left: -100px;
+  }
+
+  .MuiSlider-rail {
+    width: 100%;
+    color: #ffe500;
+    height: 8px !important;
+    display: block;
+    opacity: 1 !important;
+    position: absolute;
+    margin-top: -1px;
+    border-radius: 10px !important;
+    background-color: currentColor;
+    border: #ffe500 1px solid;
+  }
+  .MuiSlider-track {
+    height: 8px !important;
+    display: block;
+    color: #b752a6;
+    position: absolute;
+    border-radius: 1px;
+    background-color: currentColor;
+  }
+  .PrivateValueLabel-thumb-2.PrivateValueLabel-open-3
+    .PrivateValueLabel-offset-4 {
+    transform: scale(1) translateY(35px) !important;
+    margin-left: 7px;
+  }
+  .sTitle {
+    text-align: center;
+    margin-bottom: -5px !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    font-weight: 50;
+    color: #ffe500;
+  }
+  .PrivateValueLabel-label-6 {
+    color: #ffe500 !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .MuiSlider-thumb {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 5px;
+    border: #ffe500 1px solid;
+  }
+  .PrivateValueLabel-circle-5 {
+    border-radius: 50% 50% 50% 50% !important;
+    font-size: 15px;
+    border: #ffe6001c 1px solid;
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: 20px;
+    background-color: rgba(255, 208, 0, 0.11) !important;
+  }
+}
+
+/*  Mobile Screens */
+@media (max-width: 375px) {
+  /* Menu Area */
+  .mpTop {
+    padding-top: 10px;
+    height: 90px;
+    background-color: #8960be;
+    box-shadow: -1px 3px 13px #000000c4;
+  }
+
+  .backDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 110px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .back02 {
+    background-color: #736cc7;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+
+  .bkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffe500;
+  }
+  .ssBarT {
+    color: #ffe500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .headerImage {
+    height: 180px;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 13, 19, 58%),
+        rgba(255, 0, 150, 0.3)
+      ),
+      url(../../Assets/images/couple.jpg);
+    background-size: cover;
+  }
+  /* Body */
+
+  .ssPT {
+    color: #ffe500;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: -70px;
+  }
+  ._sST {
+    padding-top: 20px;
+  }
+  ._sSB {
+    padding: 57px;
+  }
+
+  .mpPInputH {
+    font-size: 12px;
+    margin-bottom: -15px;
+    align-items: center;
+  }
+  .sFTitle {
+    color: #fafaf9;
+    font-size: 12px;
+  }
+  .sDesc01 {
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    margin-top: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .age02 {
+    margin: 10px !important;
+  }
+  .agerange {
+    width: 125px !important;
+    font-size: 12px !important;
+  }
+
+  .mpPInputW {
+    font-size: 15px;
+    width: 410px;
+  }
+  .ssPInputSP {
+    font-size: 12px !important;
+    width: 270px !important;
+  }
+  .srange {
+    width: 200px;
+    padding: 0px 40px;
+    margin-left: -100px;
+  }
+
+  .MuiSlider-rail {
+    width: 100%;
+    color: #ffe500;
+    height: 8px !important;
+    display: block;
+    opacity: 1 !important;
+    position: absolute;
+    margin-top: -1px;
+    border-radius: 10px !important;
+    background-color: currentColor;
+    border: #ffe500 1px solid;
+  }
+  .MuiSlider-track {
+    height: 8px !important;
+    display: block;
+    color: #b752a6;
+    position: absolute;
+    border-radius: 1px;
+    background-color: currentColor;
+  }
+  .PrivateValueLabel-thumb-2.PrivateValueLabel-open-3
+    .PrivateValueLabel-offset-4 {
+    transform: scale(1) translateY(35px) !important;
+    margin-left: 7px;
+  }
+  .sTitle {
+    text-align: center;
+    margin-bottom: -5px !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    font-weight: 50;
+    color: #ffe500;
+  }
+  .PrivateValueLabel-label-6 {
+    color: #ffe500 !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .MuiSlider-thumb {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 5px;
+    border: #ffe500 1px solid;
+  }
+  .PrivateValueLabel-circle-5 {
+    border-radius: 50% 50% 50% 50% !important;
+    font-size: 15px;
+    border: #ffe6001c 1px solid;
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: 20px;
+    background-color: rgba(255, 208, 0, 0.11) !important;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 320px) {
+  /* Menu Area */
+  .mpTop {
+    padding-top: 10px;
+    height: 90px;
+    background-color: #8960be;
+    box-shadow: -1px 3px 13px #000000c4;
+  }
+
+  .backDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+  .bk {
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  .back02 {
+    background-color: #736cc7;
+    width: 230px;
+    height: 29px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 13px #0000005b;
+    margin-left: -30px;
+  }
+
+  .bkText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffe500;
+  }
+  .ssBarT {
+    color: #ffe500;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .headerImage {
+    height: 170px;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 13, 19, 58%),
+        rgba(255, 0, 150, 0.3)
+      ),
+      url(../../Assets/images/couple.jpg);
+    background-size: cover;
+  }
+  /* Body */
+
+  .ssPT {
+    color: #ffe500;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: -70px;
+  }
+  ._sST {
+    padding-top: 20px;
+  }
+  ._sSB {
+    padding: 52px;
+  }
+
+  .mpPInputH {
+    font-size: 12px;
+    margin-bottom: -15px;
+    align-items: center;
+  }
+  .sFTitle {
+    color: #fafaf9;
+    font-size: 12px;
+  }
+  .sDesc01 {
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    margin-top: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .age02 {
+    margin: 10px !important;
+  }
+  .agerange {
+    width: 125px !important;
+    font-size: 12px !important;
+  }
+
+  .mpPInputW {
+    font-size: 15px;
+    width: 410px;
+  }
+  .ssPInputSP {
+    font-size: 12px !important;
+    width: 270px !important;
+  }
+  .srange {
+    width: 200px;
+    padding: 0px 40px;
+    margin-left: -100px;
+  }
+
+  .MuiSlider-rail {
+    width: 100%;
+    color: #ffe500;
+    height: 8px !important;
+    display: block;
+    opacity: 1 !important;
+    position: absolute;
+    margin-top: -1px;
+    border-radius: 10px !important;
+    background-color: currentColor;
+    border: #ffe500 1px solid;
+  }
+  .MuiSlider-track {
+    height: 8px !important;
+    display: block;
+    color: #b752a6;
+    position: absolute;
+    border-radius: 1px;
+    background-color: currentColor;
+  }
+  .PrivateValueLabel-thumb-2.PrivateValueLabel-open-3
+    .PrivateValueLabel-offset-4 {
+    transform: scale(1) translateY(35px) !important;
+    margin-left: 7px;
+  }
+  .sTitle {
+    text-align: center;
+    margin-bottom: -5px !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    font-weight: 50;
+    color: #ffe500;
+  }
+  .PrivateValueLabel-label-6 {
+    color: #ffe500 !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .MuiSlider-thumb {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 5px;
+    border: #ffe500 1px solid;
+  }
+  .PrivateValueLabel-circle-5 {
+    border-radius: 50% 50% 50% 50% !important;
+    font-size: 15px;
+    border: #ffe6001c 1px solid;
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: 20px;
+    background-color: rgba(255, 208, 0, 0.11) !important;
+  }
+}
